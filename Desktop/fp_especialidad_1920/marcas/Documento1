@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<animales>
+    <zorro id="0001">
+    <nombre>vulpes vulpes</nombre>
+    <dieta>Carnívoro</dieta>
+    <habitat>Bosque</habitat>
+    </zorro>
+    <leon id="0002">
+    <nombre>Panthera leo</nombre>
+    <dieta>Carnívoro</dieta>
+    <habitat>Sabana</habitat>    
+    </leon>
+    <tigre id="0003">
+    <nombre>Panthera tigris</nombre>
+    <dieta>Carnívorio</dieta>
+    <habitat>jungla</habitat>
+    </tigre>
+</animales>

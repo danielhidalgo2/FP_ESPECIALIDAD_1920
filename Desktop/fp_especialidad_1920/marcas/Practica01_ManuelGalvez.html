@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title> El Corte Perfecto </title>
+	</head>
+	<body>
+		<h1>INSCRIPCION DE CLIENTES</h1>
+		<table border="1">
+			<tr>
+				<td rowspan="2">TIPO DE INDUSTRIA</td>
+				<td colspan="3">ORDEN POR FACTURACION EN</td>
+			</tr>
+			<tr>
+				<td>ESPAÑA</td>
+				<td>EUROPA</td>
+				<td>AMERICA</td>
+			</tr>
+			<tr>
+				<td>TEXTIL</td>
+				<td>1</td>
+				<td>3</td>
+				<td>5</td>
+		</table>
+		<br/>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<input type="text" id="nombre" size="22" placeholder="INTRODUZCA SU NOMBRE" autofocus />
+				<input type="text" id="apellidos" size="26" placeholder="INTRODUZCA SUS APELLIDOS" />
+				<br/> <br/>
+				<input type="" id="continente" size="26" placeholder="INTRODUZCA EL CONTINENTE" pattern="^Europa|America$" />
+				<input type="text" id="pais" size="18" placeholder="INTRODUZCA SU PAIS" />
+				<input type="text" id="ciudad" size="21" placeholder="INTRODUZCA SU CIUDAD" /> 
+				<br/> <br/>
+				<input type="email" id="email" size="20" placeholder="INTRODUZCA SU EMAIL" />
+			</fieldset>
+			<br/>
+			<fieldset>
+				<legend>Gustos Textiles y Envío</legend>
+				<label for="preferencias">Preferencias de Ropa</label> 
+				<br/>
+				<label><input type="radio" id="masculina" name="preferencias" value="Masculina">Masculina</label>
+				<label><input type="radio" id="femenina" name="preferencias" value="Femenina">Femenina</label>
+				<label><input type="radio" id="unisex" name="preferencias" value="Unix">Unisex</label> 
+				<br/> <br/>
+				<label for="tallas">Tallas usadas en el hogar</label>
+				<br/>
+				<label><input type="checkbox" id="xs" name="tallas" value="xs">XS</label>
+				<label><input type="checkbox" id="s" name="tallas" value="s">S</label>
+				<label><input type="checkbox" id="m" name="tallas" value="m">M</label>
+				<label><input type="checkbox" id="l" name="tallas" value="l">L</label>
+				<label><input type="checkbox" id="xl" name="tallas" value="xl">XL</label>
+				<label><input type="checkbox" id="xxl" name="tallas" value="xxl">XXL</label>
+				<label><input type="checkbox" id="xxxl" name="tallas" value="xxxl">XXXL</label>
+				<br/> <br/>
+				<label for="prendas">Prendas Preferidas</label>
+				<br/>
+				<select id="prendas">
+					<option value="pantalones">Pantalones</option>
+					<option value="faldas">Faldas</option>
+					<option value="blusas">Blusas</option>
+					<option value="cazadoras">Cazadoras</option>
+					<option value="abrigos">Abrigos</option>
+				</select>
+				<br/> <br/>
+				<label for="envio">Envio</label>
+				<br/>
+				<select id="envio">
+					<optgroup label="Recogida en mano">
+					<option value="tienda">En Tienda</option>
+					<option value="oficina">En Oficina de Correos</option>
+					</optgroup>
+					<optgroup label="Envío a domicilio">
+						<option value="avion">Por avion</option>
+						<option value="barco">Por barco</option>
+						<option value="tren">Por tren</option>
+						<option value="camion">Por camion</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<br/>
+			<fieldset>
+				<legend>Observaciones</legend>
+				<textarea id="observaciones" cols="90" rows="30" placeholder="Escriba las observaciones que considere necesarias"></textarea>
+			</fieldset>
+			<br/> 
+			<input type="reset" value="Borrar Datos del Formulario">
+			<input type="submit" value="Enviar Datos a Central">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+#titulo
+{
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+}
+p::first-letter
+ {
+
+font-size: 200%;
+color: #933;
+ font-weight: bold;
+}
+td 
+{
+
+font-size : 15px;
+font-family : verdana;
+text-align : center;
+background-color : 666666;
+
+}
+table 
+{
+  border: 1px solid black;
+  background-color: #D0FA58;
+  padding: 8px 14px;
+  border: 1px solid #888;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: circle-gradient;
+}
+body
+{
+	padding: 2em 3em 4em 5em;
+	background-color: #9FF781;
+}
+div {overflow: hidden; width: 200px; height: 50px; border: 1px solid #990000;}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="nombreApellidos1Eva.css">
+	<meta charset="utf-8">>
+	<title>Lenguaje de Marcas</title>
+</head>
+<body>
+	<h1><p id="p1">Examen 1ª Evaluación(IES Clara del Rey)</p></h1>
+	<table border= "2px"> 
+	<thead>
+		<tr>
+			<td>Animal</td>
+			<td>Nombre vulgar</td>
+			<td>Hábitat</td>
+			<td>Alimentación</td>
+			<td>Extinción</td>
+			<td>Salvaje</td>
+		</tr>
+	</thead>
+		<tr>
+			<td><img src="leon.jpg" width="200" height="200"></td>
+			<td><a href="https://es.wikipedia.org/wiki/Panthera_leo">León</a></td>
+			<td>Sabana Africana y Asia</td>
+			<td>Carnívoro</td>
+			<td>Sí, el león africano</td>
+			<td>Sí</td>
+		</tr>
+		<tr>
+			<td><img src="avestruz.jpg" width="200" height="200"></td>
+			<td><a href="https://es.wikipedia.org/wiki/Struthio_camelus">Avestruz</a></td>
+			<td>África</td>
+			<td>Herbívoro e insectívoro</td>
+			<td>Sí, el avestruz andino</td>
+			<td>Sí</td>
+		</tr>
+		<tr>
+			<td><img src="llama.jpg" width="200" height="200"></td>
+			<td><a href="https://es.wikipedia.org/wiki/Lama_glama">Llama</a></td>
+			<td>Tierras altas de los Andes y el altiplano peruano a unos 4000 sobre el nivel del mar</td>
+			<td>Herbívoro</td>
+			<td>No</td>
+			<td>No</td>
+		</tr>
+		</table>
+		<form id="form01" name="form01" method="post" action="#">
+			<fieldset>
+				<h3>Identificación</h3> 
+				<label for="usuario" class="usuario">Usuario</label>
+				<input type="text" id="usuario" pattern="">
+				<br>
+				<br>
+				<label for="contraseña" class="contraseña">Contraseña</label>
+				<input type="password" id="contraseña">
+			</fieldset>
+			<fieldset>
+				<h3>Datos Personales</h3>
+				<label for="Nombre" class="Nombre">Nombre</label>
+				<input type="text" name="Nombre" maxlength="40">
+				<label for="apellidos" class="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" maxlength="80">
+				<br>
+				<br>
+				<label for="email" class="email">Email</label>
+				<input type="email" name="email">
+				<br><br>
+				<label for="ciudad" class="ciudad">Ciudad</label>
+				<input type="combobox" name="ciudad" value="Madrid" value="Barcelona" value="Sevilla" value="La Coruña">
+			</fieldset>
+			<fieldset>
+				<h3>Datos de Información</h3>
+				<p>APADRINA</p>
+				A un león<input type="radio" name="radio">
+				<br><br>
+				A una avestruz<input type="radio" name="radio">
+				<br><br>
+				A una llama<input type="radio" name="radio" autofocus>
+			</fieldset>
+			<br><br>
+			<h3>RECIBIR INFORMACIÓN SOBRE</h3>
+			León<input type="checkbox" name="">
+			Avestruz<input type="checkbox" name="">
+			Llama<input type="checkbox" name="">
+			Todos ellos<input type="checkbox" name="TodosEllos" autofocus>
+			<br>
+			<input type="button" name="Borrar datos">
+			<br>
+			<input type="botón" name="Enviar">
+		</form>
+</body>
+</html>

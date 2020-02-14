@@ -1,0 +1,26 @@
+/*Mi fichero css*/
+body {
+	color: red;
+	font-size: 15px;
+	background-color: rgb(5%,40%,55%);
+}
+#p1 {
+	font-size: 30px;
+	color: green;
+
+}
+
+#p2 {
+	font-size: 30px;
+	color: red;
+
+}
+.etiqueta{
+	color: green;
+	font-size: 30px;
+} 
+
+span{
+	color: blue;
+	font-size: 20px;
+}								

@@ -1,0 +1,18 @@
+\d{2} [0-9]{2}
+\D{4} <!-- lo conteario al de arriba -->
+\w{3} <!-- cualquier caracter -->
+\s <!-- espacio en blanco -->
+[a-z] <!-- letra minuscula -->
+[A-Z]
+[a-zA-Z] - [a-Z]
+[0-9]
+[0-8]
++ <!-- al menos un digito y maximo los que queramos -->
+? <!-- un  digito solo, dentro del rango marcado -->
+^\d\s[a-z]{3}[0-4]+$ ---> <9 bfd33212312332123>
+^\d\s[a-z]{3}[0-4]?$ ---> <9 bfd2>
+^\d\s[a-z]{3}[0-4]*$ ---> <9 bfd> <!-- asterisco o 0 o muchos -->
+^[0-4]|[6-9]$ <!-- o empieza con uno u empieza con otro, con el 5 no podria -->
+
+estoHola
+Hola

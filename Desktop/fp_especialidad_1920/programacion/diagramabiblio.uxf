@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>0</y>
+      <w>250</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>«Miembro»
+
+--
+
+-NombreUsuario: String
+-Contraseña: String
+
+--
+
+«Accesores»
+
++getLibro(): String
+
+
+«Mutadores»
++setConsultar(): void
++setAnular(): void
+
+
++setReservar(): void
++setConsultar(): void
++setAnular(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>60</y>
+      <w>220</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>«Alumno»
+
+--
+
+-nombre: String
+-apellidos: String
+-NIA: int
+-DNI: int
+-anioNac: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>350</y>
+      <w>230</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>«Profesor»
+
+--
+
+-nombre: String
+-apellidos: String
+-DNI: int
+-departamento: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>50</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=black
+bg=black</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>250</y>
+      <w>240</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>«Bibliotecario»
+
+--
+
+
+-nombre: String
+-apellidos: String
+-DNI: int
+-nombreUsuario: String
+-contraseña: String
+
+--
+
+«Mutadores»
+
+setAlta(): void
+setBorrar(): void
+setModificarLibro(): void
+setEjemplares(): void
+setUsuarios(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>50</y>
+      <w>220</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>«Alumno»
+
+--
+
+-nombre: String
+-apellidos: String
+-NIA: int
+-DNI: int
+-anioNac: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>450</y>
+      <w>210</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=black
+bg=black</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

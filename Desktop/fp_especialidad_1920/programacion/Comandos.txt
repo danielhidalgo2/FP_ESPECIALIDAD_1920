@@ -1,0 +1,19 @@
+Apuntes rapidos porque no me entero de nada
+pwd--> Mostrar repositorio actual
+cd--> Cambiar el path donde nos encontramos
+cd .. subimos de carpeta/nivel
+mkdir "nombreDirectorio"--> Creamos una carpeta
+rm -rf "nombreDirectorio"--> Eliminamos directorio
+ll --> Muestra el contenido del directorio actual
+
+git init nombre_repositorio--> crear repositorio
+nano nombre_fichero.extension--> abrir editor de texto
+control + x--> guardar fichero
+git status--> para ver lo que hay en el repositorio
+git add--> añadir
+git rm --cached hodaaa.txt--> borrar
+git commit --m "lo que quieras"--> 
+git log
+
+
+

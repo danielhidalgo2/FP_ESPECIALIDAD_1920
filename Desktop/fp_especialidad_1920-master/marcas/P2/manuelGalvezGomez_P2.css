@@ -1,0 +1,145 @@
+
+body{
+	background-image:linear-gradient(to top, #ffffcc, #fff1a9, #fee087, #fec966, #feab4b, #fd893c, #fa5c2e, #ec3023, #d31121, #af0225, #af0225)
+	}
+
+#TituloPagina{
+	text-align: center;
+	color: #fff;
+	padding: 5px 15px;
+	width: 1300px;
+	font-family: Brush Script MT;
+	}
+
+.Introduccion{
+	background-image: linear-gradient(to top, #B22525, #F02B14, #EF3E09, #F02B14, #B22525);
+	font-family: calibri;
+	font-size: 20px;
+}
+
+p{
+	color:white;
+}
+
+ul{
+	color:white;
+}
+
+legend{
+	color:white;
+	font-style:italic;
+}
+
+#AvanzaUrbana{
+	background-image: linear-gradient(to bottom, #B22525, #F71C06, #F6A5A5, #B22525);
+	font-family: timesNewRoman;
+	font-size: 20px;
+}
+
+#Skytree{
+	width: 420px;
+	height: 300px;
+}
+
+#TorreTokio{
+	width: 420px;
+	height: 300px; 
+}
+
+#Cruce{
+	width: 420px;
+	height: 300px;
+}
+
+#Paisaje1{
+	width: 420px;
+	height: 300px;
+	padding: 0px 150px;
+}
+
+#Paisaje2{
+	width: 420px;
+	height: 300px;
+	padding: 0px 1px;
+}
+
+#AvanzaPaisajes{
+	background-image: radial-gradient(circle, white 1%, red);
+	font-family: timesNewRoman;
+	font-size: 20px;
+}
+
+#AvanzaGastronomia{
+	background-image: linear-gradient(to bottom, #EC6327, #F00, #F38555);
+	font-family: timesNewRoman;
+	font-size: 20px;
+}
+
+.FotoHistorica{
+	width: 420px;
+	height: 300px;
+	padding: 0px 150px;
+}
+
+.FotoSamurai{
+	width: 420px;
+	height: 300px;
+	padding: 0px 1px;;
+}
+
+#Sushi{
+	width: 420px;
+	height: 300px;
+}
+
+#Ramen{
+	width: 420px;
+	height: 300px;
+}
+
+#Mochis{
+	width: 420px;
+	height: 300px;
+}
+
+#AvanzaCultura{
+	background-image: linear-gradient(to bottom right, #FCC571, #FCD671, #FAC536, #F1C140, #FFFB00);
+}
+
+.FotoRezos{
+	width: 420px;
+	height: 300px;
+	padding: 0px 150px;
+	transition: transform 1.5s ease-out 1s;}
+
+.FotoRezos:hover 
+{
+	transform: scale(0.5,0.5) translate(100px,175px) rotate(360deg);
+}
+
+.FotoSumo{
+	width: 420px;
+	height: 300px;
+	padding: 0px 1px;
+	transition: transform 0s ease-out 0s;
+}
+
+.FotoSumo:hover{
+	transform: scale(2,2) translate(0px, 0px) rotate(0deg);
+}
+
+#PieFotoRezo{
+	color: black;
+	padding: 0px 490px;
+	font-size: 20px;
+}
+
+#AvanzaFormulario{
+	background-color: #F7E82B;
+	color: black;
+	text-decoration:underline;
+}
+
+#TituloFormulario, #FraseFormulario{
+	color:black;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>	
+	
+	<head>
+		<meta charset="UTF-8" />
+		<title>Formulario</title>
+	</head>
+	
+	<body>
+		<h1>MI FORMULARIO</h1>
+		<br/>
+		<h1>CODIGO _RUBIUH_ EN LA TIENDA DE FORTNITE PARA DESCUENTOS Y MAS</H1>
+		<form id="f_DM1E" method="post" action="#" enctype="multipart/form-data">
+			<label for="nombre">Introduzca el nombre</label>
+			<input type="text" id="nombre" pattern="^[D-M]\d{2}[a-z]+@$" placeholder="[D-M]\d{2}[a-z]+@$" />
+			<br /> <br />
+			<label for="edad">Introduzca la edad</label>
+			<input type="number" id="edad" min="0" max="130" />
+			<br /> <br />
+			<label for="pass">Introduce la contraseña</label>
+			<input type="password" id="pass" required />
+			<br /> <br />
+			<label for="emails">Introduce el correo</label>
+			<input type="email" id="emails" size="50" placeholder="CuentaParaMercedesNuevo@CuentaFalsa.com" />
+			<br /> <br />
+			<input type="number" min="50" max="200" step="5" placeholder="Numero de serie" />
+			<br /> <br />
+			<input type="range" min="0" max="100" step="2" />
+			<br /> <br />
+			<input type="date" autofocus />
+			<br /> <br />
+			<input type="week" />
+			<br /> <br />
+			<label for="colores">Introduce el color</label>
+			<input type="color" id="colores value="120012" />
+			<br /> <br />
+ 			<input type="file" id="ficheros" multiple accept=".pdf,.zip,.docx" />
+			<br /> <br />
+			<label><input type="checkbox" id="zapatos" checked />ZAPATOS</label> <br /> <br />
+			<label><input type="checkbox" id="pantalon" />PANTALÓN</label><br /> <br />
+			<label><input type="checkbox" id="blusa" />BLUSA</label><br /> <br />
+			<input type="radio" id="zapatos" name="prendas" value="zapatosTacon" >ZAPATOS</label> <br /> <br />
+			<input type="radio" id="pantalon" name="prendas" value="pantalon" checked>PANTALÓN</label> <br /> <br />
+			<input type="radio" id="blusa" name="prendas" value="blusa">BLUSA</label> <br /> <br />
+			<input type="hidden" id="oculto" value="DM1E" />
+			<textarea id="observacion" cols="60" rows="20" >Hola</textarea>
+			<br /> <br />
+			<select id="menu" multiple size="10">
+				<optgroup label="ordenadores">
+				<option value="o1">Ordenador1</option> 
+				<option value="o2">Ordenador2</option>
+				</optgroup>
+				<optgroup label="impresora">
+				<option value="i1">Impresora1</option>
+				<option value="i2">Impresora2</option>
+				</optgroup>
+				<optgroup label="raton">
+				<option value="r1">Raton1</option>
+				<option value="r2">Raton2</option>
+				</optgroup>
+			</select>
+			<br /> <br />
+			<input type="submit" value="enviar" />
+			<input type="reset" value="borrar" />
+		</form>
+	
+	
+	
+	</body>
+		
+		
+</html>

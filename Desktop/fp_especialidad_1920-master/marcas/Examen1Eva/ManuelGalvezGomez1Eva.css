@@ -1,0 +1,25 @@
+
+table,th,td {border:black 1px solid;} 
+	
+th { font-size: 15px;
+	 color:#00f;}
+	 
+td { font-size: 15px;
+	 color:#00f;}
+	 
+legend { font-size: 15px;
+		 color:#00f;}
+		 
+label { font-size: 15px;
+		 color:#00f;}
+		 
+p { font-size: 15px;
+	 color:#00f;}
+	 
+input {color:#00f;}
+
+h1 {color:rgb(0%,100%,0%);}
+
+body {background-color:#aaa;}
+
+fieldset {width:1090px;}

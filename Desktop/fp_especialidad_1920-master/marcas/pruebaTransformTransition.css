@@ -1,0 +1,68 @@
+/*CSS vinculado a Prueba Transform_Transition.html*/
+/*14-01-2020*/
+
+#tituloPrincipal {text-align: center;}
+
+.menu
+{
+	background: #ccc;
+	padding: 5px 15px;
+	width: 400px;
+}
+
+.menu li
+{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana;
+}
+
+.s1
+{
+	/*position: absolute;*/
+	color: #f00;
+	top: 400px;
+	left: 400px;
+	transition: transform 1s ease-out 0.5s;
+}
+ <!-- para que actue cuando le pones el raton se pone el :hover -->
+.s1:hover 
+{
+	transform: scale(2,2) translate(700px,800px) rotate(45deg);
+}
+
+.LeftToRight
+{
+	background-image: linear-gradient(to right,green 20%,red 50%, blue);
+}
+
+.RightToLeft
+{
+	background-image: linear-gradient(to left,green 20%,red 50%, blue);
+}
+
+.TopToBottom
+{
+	background-image: linear-gradient(to bottom,green 20%,red 50%, blue);
+}
+
+.BottomToTop
+{
+	background-image: linear-gradient(to top,green 20%,red 50%, blue);
+}
+
+.DiagonalDerecha
+{
+	background-image: linear-gradient(to bottom right,green 20%,red 50%, blue);
+}
+
+.DiagonalIzquierda
+{
+	background-image: linear-gradient(to bottom left,green 20%,red 50%, blue);
+}
+
+.Radial
+{
+	background-image: radial-gradient(ellipse, green 20%, red 50%, blue)
+}

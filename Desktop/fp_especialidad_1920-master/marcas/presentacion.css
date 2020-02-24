@@ -1,0 +1,29 @@
+/*Mi fichero CSS*/
+body
+{
+	background-image: url(imagenes/volcan.jpg);
+}
+p
+{
+	color:red;
+	font-size:30;
+	font-family:timesNewRoman;
+	text-decoration:overline;
+	text-align:right;
+}
+	
+h1, #miP
+{
+	font-style:italic;
+	font-family:timesNewRoman;
+	text-decoration:underline;
+	text-align:center;
+}
+
+p.texto
+{
+	text-indent:100px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+	
